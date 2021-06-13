@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Nunito-ExtraBold';
+  src: url("../fonts/Nunito-ExtraBold.ttf");
+}
+
+@-webkit-keyframes neon-yellow {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+  }
+}
+
+@keyframes neon-yellow {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+  }
+}
+
+@-webkit-keyframes neon-pink {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(253, 1, 104, 0.52), 0 0 21px rgba(253, 1, 104, 0.92), 0 0 34px rgba(253, 1, 104, 0.78), 0 0 54px rgba(253, 1, 104, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(253, 1, 104, 0.58), 0 0 22px rgba(253, 1, 104, 0.84), 0 0 38px rgba(253, 1, 104, 0.88), 0 0 60px #fd0168;
+  }
+}
+
+@keyframes neon-pink {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(253, 1, 104, 0.52), 0 0 21px rgba(253, 1, 104, 0.92), 0 0 34px rgba(253, 1, 104, 0.78), 0 0 54px rgba(253, 1, 104, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(253, 1, 104, 0.58), 0 0 22px rgba(253, 1, 104, 0.84), 0 0 38px rgba(253, 1, 104, 0.88), 0 0 60px #fd0168;
+  }
+}
+
+@-webkit-keyframes neon-pink-heart {
+  from {
+    -webkit-filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.92)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.34)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.52)) drop-shadow(0 0 11px rgba(253, 1, 104, 0.92)) drop-shadow(0 0 17px rgba(253, 1, 104, 0.78)) drop-shadow(0 0 100px rgba(253, 1, 104, 0.92));
+            filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.92)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.34)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.52)) drop-shadow(0 0 11px rgba(253, 1, 104, 0.92)) drop-shadow(0 0 17px rgba(253, 1, 104, 0.78)) drop-shadow(0 0 100px rgba(253, 1, 104, 0.92));
+  }
+  to {
+    -webkit-filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.98)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.42)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.58)) drop-shadow(0 0 12px rgba(253, 1, 104, 0.84)) drop-shadow(0 0 19px rgba(253, 1, 104, 0.88)) drop-shadow(0 0 106px #fd0168);
+            filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.98)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.42)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.58)) drop-shadow(0 0 12px rgba(253, 1, 104, 0.84)) drop-shadow(0 0 19px rgba(253, 1, 104, 0.88)) drop-shadow(0 0 106px #fd0168);
+  }
+}
+
+@keyframes neon-pink-heart {
+  from {
+    -webkit-filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.92)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.34)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.52)) drop-shadow(0 0 11px rgba(253, 1, 104, 0.92)) drop-shadow(0 0 17px rgba(253, 1, 104, 0.78)) drop-shadow(0 0 100px rgba(253, 1, 104, 0.92));
+            filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.92)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.34)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.52)) drop-shadow(0 0 11px rgba(253, 1, 104, 0.92)) drop-shadow(0 0 17px rgba(253, 1, 104, 0.78)) drop-shadow(0 0 100px rgba(253, 1, 104, 0.92));
+  }
+  to {
+    -webkit-filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.98)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.42)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.58)) drop-shadow(0 0 12px rgba(253, 1, 104, 0.84)) drop-shadow(0 0 19px rgba(253, 1, 104, 0.88)) drop-shadow(0 0 106px #fd0168);
+            filter: drop-shadow(0 0 6px rgba(202, 228, 225, 0.98)) drop-shadow(0 0 30px rgba(202, 228, 225, 0.42)) drop-shadow(0 0 3px rgba(253, 1, 104, 0.58)) drop-shadow(0 0 12px rgba(253, 1, 104, 0.84)) drop-shadow(0 0 19px rgba(253, 1, 104, 0.88)) drop-shadow(0 0 106px #fd0168);
+  }
+}
+
+@-webkit-keyframes neon-yellow-arrow {
+  from {
+    -webkit-box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+            box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+  }
+  to {
+    -webkit-box-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+            box-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+  }
+}
+
+@keyframes neon-yellow-arrow {
+  from {
+    -webkit-box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+            box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(254, 211, 18, 0.52), 0 0 21px rgba(254, 211, 18, 0.92), 0 0 34px rgba(254, 211, 18, 0.78), 0 0 54px rgba(254, 211, 18, 0.92);
+  }
+  to {
+    -webkit-box-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+            box-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(254, 211, 18, 0.58), 0 0 22px rgba(254, 211, 18, 0.84), 0 0 38px rgba(254, 211, 18, 0.88), 0 0 60px #fed312;
+  }
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  font-family: 'Nunito-ExtraBold';
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.app .app-background-filter {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.app .app-background-filter .logo-container {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.app .app-background-filter .logo-container .logo {
+  position: relative;
+  width: 450px;
+  height: 220px;
+  margin-left: 100px;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container {
+  position: absolute;
+  top: -48px;
+  left: -65px;
+  width: 180px;
+  height: 180px;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  z-index: 0;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .heart {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  border: 15px solid white;
+  border-radius: 5px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .heart::before, .app .app-background-filter .logo-container .logo .heart-container .heart::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  border: 15px solid white;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .heart::before {
+  top: -65px;
+  left: -15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .heart::after {
+  top: -15px;
+  left: 36px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .heart.with-shadow {
+  -webkit-animation: neon-pink-heart 0.08s ease-in-out infinite alternate;
+  animation: neon-pink-heart 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrowhead-top {
+  position: absolute;
+  top: -20px;
+  right: -110px;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+  width: 35px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrowhead-bottom {
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  width: 35px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrow-body {
+  position: absolute;
+  top: -20px;
+  left: 180px;
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+  width: 80px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrow-tail-left {
+  position: absolute;
+  top: 45px;
+  left: -95px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  width: 35px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrow-tail-center {
+  position: absolute;
+  top: 70px;
+  left: -90px;
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+  width: 55px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .heart-container .arrow .arrow-tail-right {
+  position: absolute;
+  top: 98px;
+  left: -75px;
+  -webkit-transform: rotate(-68deg);
+          transform: rotate(-68deg);
+  width: 35px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow-arrow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .logo-text-top {
+  position: absolute;
+  top: -40px;
+  font-size: 150px;
+  -webkit-animation: neon-yellow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .logo-text-bottom {
+  position: absolute;
+  bottom: -25px;
+  font-size: 95px;
+  margin-left: 5px;
+  -webkit-animation: neon-yellow 0.08s ease-in-out infinite alternate;
+  animation: neon-yellow 0.08s ease-in-out infinite alternate;
+}
+
+.app .app-background-filter .logo-container .logo .logo-text-top .pink, .app .app-background-filter .logo-container .logo .logo-text-bottom .pink {
+  -webkit-animation: neon-pink 0.08s ease-in-out infinite alternate;
+  animation: neon-pink 0.08s ease-in-out infinite alternate;
+}
+
+@media (max-width: 960px) {
+  .logo-container {
+    -webkit-transform: scale(75%);
+            transform: scale(75%);
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-container {
+    -webkit-transform: scale(50%);
+            transform: scale(50%);
+  }
+  .logo-container .logo {
+    margin-left: 180px !important;
+  }
+}
+/*# sourceMappingURL=app.css.map */

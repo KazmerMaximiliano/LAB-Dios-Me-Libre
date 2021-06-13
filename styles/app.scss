@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url('../fonts/Nunito-ExtraBold.ttf');
+}
+
+@import './animations';
+@import './style';
