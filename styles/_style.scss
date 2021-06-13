@@ -165,19 +165,27 @@
                     }
                 }
             }
+            .prox {
+                position: absolute;
+                bottom: 24px;
+                font-size: 18px;
+                color: #fff;
+                -webkit-animation: neon-blue 0.08s ease-in-out infinite alternate;
+                animation: neon-blue 0.08s ease-in-out infinite alternate;
+            }
         }
     }
 }
 
 @media (max-width: 960px) {
     .logo-container {
-        transform: scale(75%);
+        transform: scale(50%);
     }
 }
 
 @media (max-width: 600px) {
     .logo-container {
-        transform: scale(50%);
+        transform: scale(25%);
         .logo {
             margin-left: 180px !important;
         }
